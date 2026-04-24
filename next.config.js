@@ -4,7 +4,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
-  output: 'standalone',
+  output: 'export',
 };
 
 module.exports = nextConfig;
