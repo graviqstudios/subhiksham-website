@@ -437,7 +437,7 @@ export default function HomePage() {
                 <div className="flex items-center gap-2">
                   <Leaf size={18} />
                   <span className="font-display text-sm tracking-wide">
-                    Since 2018
+                    Since 2026
                   </span>
                 </div>
               </div>
