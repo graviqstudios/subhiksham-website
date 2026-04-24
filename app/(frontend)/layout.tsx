@@ -149,17 +149,17 @@ function Footer() {
             <div className="flex flex-col items-start leading-tight mb-3">
               <div 
                 className="px-3 py-2 rounded-lg"
-                style={{ backgroundColor: '#2d4a3e' }}
+                style={{ backgroundColor: '#e4caa9' }}
               >
                 <span 
                   className="font-display text-xl font-bold tracking-wider"
-                  style={{ color: '#e4caa9' }}
+                  style={{ color: '#2d4a3e' }}
                 >
                   Subhiksham
                 </span>
               </div>
               <span className="font-display text-xs text-brand-cream/60 tracking-[0.2em] uppercase mt-1">
-                The Tiffin Club
+                 The Tiffin Club
               </span>
             </div>
             <p className="mt-2 text-sm text-brand-cream/80 leading-relaxed">
