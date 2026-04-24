@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Subhiksham - The Tiffin Club | Pure Veg South Indian Restaurant, Palakkad',
   description:
     'Pure vegetarian South Indian cuisine crafted with love and tradition. Breakfast, lunch, tiffin and specials at Palakkad.',
+  icons: {
+    icon: '/favicon.ico', // Standard favicon
+  },
   openGraph: {
     title: 'Subhiksham - The Tiffin Club',
     description: 'Pure vegetarian South Indian restaurant in Palakkad',
