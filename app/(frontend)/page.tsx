@@ -390,17 +390,17 @@ export default function HomePage() {
       </section>
 
       {/* ── About Snippet ────────────────────────────────────────────────── */}
-      <section className="py-16 md:py-24 bg-brand-green/60 text-brand-cream">
+      <section className="py-16 md:py-24 bg-brand-green/80 text-brand-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="font-display text-sm text-brand-ochre tracking-[0.2em] uppercase">
+              <p className="font-display text-sm text-brand-orange tracking-[0.2em] uppercase">
                 Our Story
               </p>
               <h2 className="font-display text-3xl md:text-4xl font-bold mt-3 leading-tight">
                 Where Tradition Meets Taste
               </h2>
-              <div className="w-16 h-0.5 bg-brand-ochre mt-4" />
+              <div className="w-16 h-0.5 bg-brand-orange mt-4" />
               <p className="mt-6 text-brand-cream/80 leading-relaxed">
                 Subhiksham is more than a restaurant &mdash; it&apos;s a tribute to
                 Palakkad&apos;s timeless vegetarian heritage. Our open kitchen
@@ -414,7 +414,7 @@ export default function HomePage() {
               </p>
               <Link
                 href="/story"
-                className="inline-flex items-center gap-2 mt-8 text-brand-ochre font-display text-sm tracking-wide hover:text-brand-ochre-light transition-colors"
+                className="inline-flex items-center gap-2 mt-8 text-brand-orange font-display text-sm tracking-wide hover:text-brand-ochre-light transition-colors"
               >
                 Read Our Full Story <ChevronRight size={16} />
               </Link>
