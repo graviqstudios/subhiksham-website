@@ -216,12 +216,6 @@ function HeroCarousel() {
           <Link href="/menu" className="btn-primary">
             Explore Our Menu
           </Link>
-          <Link
-            href="/reserve"
-            className="border-2 border-brand-cream text-brand-cream px-6 py-3 rounded-lg font-display text-sm tracking-wide hover:bg-brand-cream/10 transition-all duration-300"
-          >
-            Reserve a Table
-          </Link>
         </div>
       </div>
 
