@@ -234,7 +234,7 @@ function Footer() {
 
 function WhatsAppButton() {
   return (
-    
+    <a
       href="https://wa.me/919876543210?text=Hi%20Subhiksham!%20I%27d%20like%20to%20know%20more."
       target="_blank"
       rel="noopener noreferrer"
