@@ -141,7 +141,7 @@ function Header() {
 
 function Footer() {
   return (
-    <footer className="bg-brand-cream text-brand-green">
+    <footer className="bg-brand-green text-brand-cream">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
@@ -158,17 +158,17 @@ function Footer() {
                   Subhiksham
                 </span>
               </div>
-              <span className="font-display text-xs text-brand-green/60 tracking-[0.2em] uppercase mt-1">
+              <span className="font-display text-xs text-brand-cream/60 tracking-[0.2em] uppercase mt-1">
                  The Tiffin Club
               </span>
             </div>
-            <p className="mt-2 text-sm text-brand-green/80 leading-relaxed">
+            <p className="mt-2 text-sm text-brand-cream/80 leading-relaxed">
               Pure vegetarian South Indian cuisine, crafted with love and
               tradition in the heart of Palakkad.
             </p>
             <div className="flex items-center gap-2 mt-4">
               <span className="veg-dot" />
-              <span className="text-xs text-brand-green/70 tracking-wider">
+              <span className="text-xs text-brand-cream/70 tracking-wider">
                 100% PURE VEGETARIAN
               </span>
             </div>
@@ -184,7 +184,7 @@ function Footer() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm text-brand-green/80 hover:text-brand-ochre transition-colors"
+                  className="text-sm text-brand-cream/80 hover:text-brand-ochre transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -197,7 +197,7 @@ function Footer() {
             <h4 className="font-display text-lg font-semibold tracking-wide mb-4">
               Visit Us
             </h4>
-            <div className="space-y-3 text-sm text-brand-green/80">
+            <div className="space-y-3 text-sm text-brand-cream/80">
               <p>100 Ft. Road, Palakkad</p>
               <p>Kerala, India - 678001</p>
               <a
@@ -207,7 +207,7 @@ function Footer() {
                 +91 98765 43210
               </a>
               <div className="pt-2">
-                <p className="font-display text-sm font-semibold text-brand-green mb-2">
+                <p className="font-display text-sm font-semibold text-brand-cream mb-2">
                   Opening Hours
                 </p>
                 <p>Breakfast: 7:00 AM - 10:00 AM</p>
@@ -218,12 +218,12 @@ function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-brand-green/20 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-10 pt-6 border-t border-brand-cream/20 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-brand-green/60">
             &copy; {new Date().getFullYear()} Subhiksham - The Tiffin Club. All
             rights reserved.
           </p>
-          <p className="text-xs text-brand-green/60 font-display italic">
+          <p className="text-xs text-brand-cream/60 font-display italic">
             &ldquo;Served with love, seasoned with tradition&rdquo;
           </p>
         </div>
