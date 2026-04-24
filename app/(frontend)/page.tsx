@@ -445,20 +445,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* ── CTA ──────────────────────────────────────────────────────────── */}
-      <section className="py-16 md:py-20 bg-brand-cream">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-brand-green">
-            Ready to Experience Subhiksham?
-          </h2>
-            <Link href="/contact" className="btn-secondary">
-              <span className="flex items-center gap-2">
-                <MapPin size={16} /> Find Us
-              </span>
-            </Link>
-        </div>
-      </section>
     </div>
   );
 }
