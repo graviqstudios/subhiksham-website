@@ -263,13 +263,6 @@ function HeroCarousel() {
 export default function HomePage() {
   const [announcement, setAnnouncement] = useState<string | null>(null);
   const [activeCategory, setActiveCategory] = useState('breakfast');
-
-  useEffect(() => {
-    setAnnouncement(
-      'Grand Onam Sadya on Sept 15th! Pre-order now to reserve your feast.'
-    );
-  }, []);
-
   const currentCategory = menuCategories.find((c) => c.key === activeCategory);
 
   return (
