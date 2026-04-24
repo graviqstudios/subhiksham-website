@@ -180,7 +180,7 @@ function HeroCarousel() {
         style={{ backgroundImage: `url('${slide.src}')` }}
       />
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-brand-green/65 via-brand-green/45 to-brand-green/75" />
+      <div className="absolute inset-0 bg-black/60" />
 
       {/* Content */}
       <div
