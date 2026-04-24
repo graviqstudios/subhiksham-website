@@ -234,14 +234,25 @@ function Footer() {
 
 function WhatsAppButton() {
   return (
-    <a
+    
       href="https://wa.me/919876543210?text=Hi%20Subhiksham!%20I%27d%20like%20to%20know%20more."
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300"
+      className="fixed bottom-6 right-6 z-50 hover:scale-110 transition-all duration-300"
       aria-label="Chat on WhatsApp"
     >
-      <MessageCircle size={24} fill="white" />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 48 48"
+        width="56"
+        height="56"
+      >
+        <circle cx="24" cy="24" r="24" fill="#25D366" />
+        <path
+          fill="white"
+          d="M24 10C16.28 10 10 16.28 10 24c0 2.52.68 4.88 1.86 6.92L10 38l7.3-1.82A13.94 13.94 0 0 0 24 38c7.72 0 14-6.28 14-14S31.72 10 24 10zm0 25.5a11.44 11.44 0 0 1-5.84-1.6l-.42-.25-4.33 1.08 1.1-4.22-.28-.44A11.47 11.47 0 0 1 12.5 24C12.5 17.6 17.6 12.5 24 12.5S35.5 17.6 35.5 24 30.4 35.5 24 35.5zm6.3-8.56c-.34-.17-2.02-.99-2.33-1.1-.31-.12-.54-.17-.77.17-.23.34-.88 1.1-1.08 1.33-.2.22-.4.25-.74.08-.34-.17-1.44-.53-2.74-1.69-1.01-.9-1.7-2.02-1.9-2.36-.2-.34-.02-.52.15-.69.15-.15.34-.4.51-.6.17-.2.23-.34.34-.57.11-.23.06-.43-.03-.6-.08-.17-.77-1.85-1.05-2.53-.28-.67-.56-.58-.77-.59h-.65c-.23 0-.6.08-.91.4-.31.31-1.2 1.17-1.2 2.85s1.23 3.31 1.4 3.54c.17.23 2.42 3.7 5.86 5.19.82.35 1.46.56 1.96.72.82.26 1.57.22 2.16.13.66-.1 2.02-.82 2.31-1.62.28-.8.28-1.48.2-1.62-.09-.15-.32-.23-.66-.4z"
+        />
+      </svg>
     </a>
   );
 }
