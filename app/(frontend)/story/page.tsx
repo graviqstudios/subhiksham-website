@@ -12,7 +12,7 @@ const sections = [
       'In Palakkad, where the paddy fields stretch endlessly and the Western Ghats stand guard, this word carries the weight of generations. Every grandmother who stirred a pot of sambar, every grandfather who ground chutney on a stone — they all understood subhiksham. It is not mere sustenance; it is sacred nourishment.',
       'We chose this name because we believe a restaurant should be more than a place to eat. It should be a place where abundance is felt — in the aroma of freshly ground spices, in the warmth of a steel tumbler of filter coffee, in the crackle of a dosa being poured onto a hot tawa.',
     ],
-    image: 'https://images.pexels.com/photos/3769045/pexels-photo-3769045.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://pureleven.com/cdn/shop/articles/spices-to-boost-immunity.webp?v=1750638090',
     imageAlt: 'Traditional spices',
   },
   {
@@ -24,7 +24,7 @@ const sections = [
       'This openness is our promise. It says: we trust our ingredients, we trust our methods, and we trust you to see the care in every step. The tawa is seasoned with years of use. The batter has fermented overnight. The coconut was grated this morning. There are no shortcuts in an open kitchen.',
       'Our chefs are not hidden behind swinging doors. They are artisans, and their craft deserves to be witnessed. The rhythm of the ladle, the hiss of the tawa, the precise flip of a dosa — this is the music of South Indian cooking, and we want you to hear every note.',
     ],
-    image: 'https://images.pexels.com/photos/5570818/pexels-photo-5570818.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://i.pinimg.com/736x/a6/b8/d7/a6b8d79da58b5cce8e7d139f1fa69edd.jpg',
     imageAlt: 'Open kitchen cooking',
   },
   {
@@ -36,7 +36,7 @@ const sections = [
       'Our menu is rooted in this terroir. We source our rice from local farmers in Chittur and Kollengode. Our coconuts come from the groves of Nemmara. Our vegetables are picked from the shandy markets that have operated here for centuries. When you eat at Subhiksham, you taste Palakkad.',
       'The Palakkadan diet is simple but profound: rice as the foundation, sambar and rasam as the daily companions, and an array of thorans, avials, and pickles that change with the seasons. We honor this tradition not by freezing it in time, but by keeping it alive — fresh, evolving, and always abundant.',
     ],
-    image: 'https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://stock.adobe.com/images/kollengode-palakkad-a-border-village-in-palakkad-district-famous-for-its-beautiful-vast-stretch-of-paddy-fields-and-waterfalls/652354529',
     imageAlt: 'Palakkad landscape',
   },
 ];
