@@ -146,13 +146,22 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
-            <Image
-              src="/logo.jpg"
-              alt="Subhiksham – The Tiffin Club"
-              width={160}
-              height={70}
-              className="h-14 w-auto object-contain brightness-0 invert mb-3"
-            />
+            <div className="flex flex-col items-start leading-tight mb-3">
+              <div 
+                className="px-3 py-2 rounded-lg"
+                style={{ backgroundColor: '#2d4a3e' }}
+              >
+                <span 
+                  className="font-display text-xl font-bold tracking-wider"
+                  style={{ color: '#e4caa9' }}
+                >
+                   Subhiksham
+                </span>
+              </div>
+              <span className="font-display text-xs text-brand-cream/60 tracking-[0.2em] uppercase mt-1">
+                The Tiffin Club
+              </span>
+            </div>
             <p className="mt-2 text-sm text-brand-cream/80 leading-relaxed">
               Pure vegetarian South Indian cuisine, crafted with love and
               tradition in the heart of Palakkad.
