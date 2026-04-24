@@ -155,7 +155,7 @@ function Footer() {
                   className="font-display text-xl font-bold tracking-wider"
                   style={{ color: '#e4caa9' }}
                 >
-                   Subhiksham
+                  Subhiksham
                 </span>
               </div>
               <span className="font-display text-xs text-brand-cream/60 tracking-[0.2em] uppercase mt-1">
