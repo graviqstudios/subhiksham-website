@@ -219,7 +219,7 @@ function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-brand-cream/20 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-brand-green/60">
+          <p className="text-xs text-brand-cream/60">
             &copy; {new Date().getFullYear()} Subhiksham - The Tiffin Club. All
             rights reserved.
           </p>
