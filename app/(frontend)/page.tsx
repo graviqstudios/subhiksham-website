@@ -459,22 +459,11 @@ export default function HomePage() {
           <h2 className="font-display text-3xl md:text-4xl font-bold text-brand-green">
             Ready to Experience Subhiksham?
           </h2>
-          <p className="mt-4 text-brand-green/70 max-w-lg mx-auto">
-            Reserve your table or pre-order your favourite tiffin for pickup.
-            We&apos;d love to host you.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
-            <Link href="/reserve" className="btn-primary">
-              <span className="flex items-center gap-2">
-                <Utensils size={16} /> Book a Table
-              </span>
-            </Link>
             <Link href="/contact" className="btn-secondary">
               <span className="flex items-center gap-2">
                 <MapPin size={16} /> Find Us
               </span>
             </Link>
-          </div>
         </div>
       </section>
     </div>
