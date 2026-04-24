@@ -36,7 +36,7 @@ const sections = [
       'Our menu is rooted in this terroir. We source our rice from local farmers in Chittur and Kollengode. Our coconuts come from the groves of Nemmara. Our vegetables are picked from the shandy markets that have operated here for centuries. When you eat at Subhiksham, you taste Palakkad.',
       'The Palakkadan diet is simple but profound: rice as the foundation, sambar and rasam as the daily companions, and an array of thorans, avials, and pickles that change with the seasons. We honor this tradition not by freezing it in time, but by keeping it alive — fresh, evolving, and always abundant.',
     ],
-    image: 'https://stock.adobe.com/images/kollengode-palakkad-a-border-village-in-palakkad-district-famous-for-its-beautiful-vast-stretch-of-paddy-fields-and-waterfalls/652354529',
+    image: 'https://images.nativeplanet.com/img/2023/11/untitleddesign-2023-11-10t213009-304-1699633875.jpg',
     imageAlt: 'Palakkad landscape',
   },
 ];
