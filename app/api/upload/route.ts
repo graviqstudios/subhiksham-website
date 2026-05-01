@@ -83,7 +83,4 @@ export async function POST(req: NextRequest) {
   }
 }
 
-// Required for file uploads — disable Next.js body parser
-export const config = {
-  api: { bodyParser: false },
-};
+export const runtime = 'nodejs';
