@@ -1,17 +1,22 @@
+// app/layout.tsx
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import { Playfair_Display } from 'next/font/google';
+import './globals.css';
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+});
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  variable: '--font-playfair',
+});
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://subhiksham.in'),
-  title: 'Subhiksham - The Tiffin Club | Pure Veg South Indian Restaurant, Palakkad',
-  description:
-    'Pure vegetarian South Indian cuisine crafted with love and tradition. Breakfast, lunch, tiffin and specials at Palakkad.',
-  icons: {
-    icon: '/favicon.ico', // Standard favicon
-  },
-  openGraph: {
-    title: 'Subhiksham - The Tiffin Club',
-    description: 'Pure vegetarian South Indian restaurant in Palakkad',
-  },
+  title: 'Subhiksham – The Tiffin Club',
+  description: 'Pure vegetarian South Indian cuisine in Palakkad, Kerala',
 };
 
 export default function RootLayout({
@@ -19,5 +24,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <html lang="en">
+      <body className={`${inter.variable} ${playfair.variable} font-body bg-brand-cream`}>
+        {children}
+      </body>
+    </html>
+  );
 }

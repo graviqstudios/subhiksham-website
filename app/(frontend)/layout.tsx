@@ -1,3 +1,5 @@
+//app/(frontend)/layout.tsx
+
 'use client';
 
 import '@/app/globals.css';

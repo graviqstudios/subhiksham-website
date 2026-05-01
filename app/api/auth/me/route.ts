@@ -1,0 +1,11 @@
+// app/api/auth/me/route.ts
+import { NextResponse } from 'next/server';
+import { getSession } from '@/app/lib/auth';
+
+export async function GET() {
+  const user = await getSession();
+  if (!user) {
+    return NextResponse.json({ ok: false, error: 'Not authenticated' }, { status: 401 });
+  }
+  return NextResponse.json({ ok: true, data: user });
+}
