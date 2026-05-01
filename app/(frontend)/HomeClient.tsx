@@ -209,19 +209,19 @@ export default function HomeClient({
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="font-display text-sm text-brand-ochre tracking-[0.2em] uppercase">Our Story</p>
+              <p className="font-display text-sm text-brand-ochre-light  tracking-[0.2em] uppercase">Our Story</p>
               <h2 className="font-display text-3xl md:text-4xl font-bold mt-3 leading-tight">Where Tradition Meets Taste</h2>
-              <div className="w-16 h-0.5 bg-brand-ochre mt-4" />
+              <div className="w-16 h-0.5 bg-brand-ochre-light mt-4" />
               <p className="mt-6 text-brand-cream/80 leading-relaxed">
                 Subhiksham is more than a restaurant — it&apos;s a tribute to Palakkad&apos;s timeless vegetarian heritage.
               </p>
-              <Link href="/story" className="inline-flex items-center gap-2 mt-8 text-brand-ochre font-display text-sm tracking-wide hover:text-brand-ochre-light transition-colors">
+              <Link href="/story" className="inline-flex items-center gap-2 mt-8 text-brand-ochre-light font-display text-sm tracking-wide hover:text-brand-ochre-light transition-colors">
                 Read Our Full Story <ChevronRight size={16} />
               </Link>
             </div>
             <div className="relative">
               <div className="aspect-[4/3] rounded-xl overflow-hidden">
-                <img src="https://images.pexels.com/photos/9609838/pexels-photo-9609838.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Traditional Kitchen" className="w-full h-full object-cover" />
+                <img src="https://images.openai.com/static-rsc-4/eUvpyNXQ3cZju_pEGD6KCvguyOkyt1DqxO0J08LSiw3plu3byNF5Zia1xI5dfQeRMZSrivWWgOqdUk8kR8pd92dSRuNuCX5oEpGDKFCL2-3lwN_ohHS_ELXuY0RPQmh7qozDcDTAitap6sANUmBk40Uz_uG6RYqPFw4XhZcbrra_VnlgjEe5hercHF2b4vsh?purpose=fullsize"  alt="Traditional Kitchen" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-4 -left-4 bg-brand-ochre text-white px-5 py-3 rounded-lg shadow-lg">
                 <div className="flex items-center gap-2">
