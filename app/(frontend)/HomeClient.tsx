@@ -6,7 +6,7 @@ import { ChevronRight, ChevronLeft, Camera, Leaf } from 'lucide-react';
 
 const heroSlides = [
   {
-    src: 'https://photos.app.goo.gl/P9i3tt3cLXk5n33p8',
+    src: 'https://lh3.googleusercontent.com/pw/AP1GczNJgHWXOtG1lmjQsulnj76GXUwl5RxpwuaQUteHzca1TyXkNWxjHyzpQe7zyY_IYKVXm-W22cjcTkNRPTxskba10xSnnoE_Getj9VooSxBS4tDNaNgWq6mMFtHnYYaF9WOFcsF7aBOKPVY2chGZDA=w1745-h974-s-no-gm?authuser=0',
     alt: 'Kerala Sadya on banana leaf',
     caption: 'Abundance on a Leaf',
     sub: 'The timeless Kerala Sadya',
@@ -18,19 +18,19 @@ const heroSlides = [
     sub: 'Crisp dosas, velvety chutneys',
   },
   {
-    src: 'https://photos.app.goo.gl/cgF6a89dNFtF1Gdm8  ',
+    src: 'https://lh3.googleusercontent.com/pw/AP1GczM8didLDG1vYGdhDo27kYZ4Qm7H7MES0xRKH1tlEYW_2ezBp--1eRJ3L9RWyN_49HhU36afW7rbJY7SdgILVdVF4X7W67KuZxNW7xTxdT-XQYp8yY8vkkrgidt-Ct8NpJKJLjDagj7SfPrQtkGVEw=w1745-h974-s-no-gm?authuser=0',
     alt: 'South Indian kitchen cooking',
     caption: 'The Open Kitchen',
     sub: 'Cooked with honesty, served with love',
   },
   {
-    src: 'https://photos.app.goo.gl/BF89rRUH216hnnp8A  ',
+    src: 'https://lh3.googleusercontent.com/pw/AP1GczMll5nJA8e4pdYqSLL-31h-gPTQJvpg-U4lzs2dB5Z7icw6Y_iEczkBd3EQvPc4djaeCd_U4SP6GLonxcwd495jIvBfCHCMVVar8oj4qUYukvlwKsN1O0HZS3XU6x3mnEdLL6AXh3PVX1kcgSog6A=w1745-h974-s-no-gm?authuser=0',
     alt: 'Traditional South Indian filter coffee in steel tumbler',
     caption: 'Filter Coffee Culture',
     sub: 'Frothy, strong, and soul-warming',
   },
   {
-    src: 'https://photos.app.goo.gl/9gjSZiRTerjo9Qkh8   ',
+    src: 'https://lh3.googleusercontent.com/pw/AP1GczP3LmEbZwak46gLFLdWl9LCfYsQbtEWJKF9COmp1w0abYZk-7lU9-ioPCWQ2YFfAR1op4lwXpGKL98OBm4A3noCwaV-cbltZpJwfkpA_kwF5y50jgzd8iSCfxYFxuMEWm0_9ui1zLzTQX1hp8VlyA=w1745-h974-s-no-gm?authuser=0',
     alt: 'South Indian spices and fresh ingredients',
     caption: 'Palakkad on a Plate',
     sub: 'Where Kerala meets Tamil Nadu',
