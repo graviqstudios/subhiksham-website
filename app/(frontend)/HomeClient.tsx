@@ -5,35 +5,51 @@ import Link from 'next/link';
 import { ChevronRight, ChevronLeft, Camera, Leaf } from 'lucide-react';
 
 const heroSlides = [
-  { src: 'https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=1400', alt: 'Kerala Sadya', caption: 'Abundance on a Leaf', sub: 'The timeless Kerala Sadya' },
-  { src: 'https://images.pexels.com/photos/4331489/pexels-photo-4331489.jpeg?auto=compress&cs=tinysrgb&w=1400', alt: 'South Indian breakfast', caption: 'Morning Rituals', sub: 'Crisp dosas, velvety chutneys' },
-  { src: 'https://images.pexels.com/photos/9609838/pexels-photo-9609838.jpeg?auto=compress&cs=tinysrgb&w=1400', alt: 'Traditional kitchen', caption: 'The Open Kitchen', sub: 'Cooked with honesty, served with love' },
-  { src: 'https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg?auto=compress&cs=tinysrgb&w=1400', alt: 'Filter coffee', caption: 'Filter Coffee Culture', sub: 'Frothy, strong, and soul-warming' },
-  { src: 'https://images.pexels.com/photos/4331490/pexels-photo-4331490.jpeg?auto=compress&cs=tinysrgb&w=1400', alt: 'Palakkad spices', caption: 'Palakkad on a Plate', sub: 'Where Kerala meets Tamil Nadu' },
-];
-
-const galleryImages = [
-  { src: 'https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Kerala Sadya' },
-  { src: 'https://images.pexels.com/photos/4331489/pexels-photo-4331489.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Breakfast spread' },
-  { src: 'https://images.pexels.com/photos/9609838/pexels-photo-9609838.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Clay pot cooking' },
-  { src: 'https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Filter coffee' },
-  { src: 'https://images.pexels.com/photos/4331490/pexels-photo-4331490.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Spices' },
-  { src: 'https://images.pexels.com/photos/5560764/pexels-photo-5560764.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Thali' },
+  {
+    src: 'https://photos.app.goo.gl/P9i3tt3cLXk5n33p8',
+    alt: 'Kerala Sadya on banana leaf',
+    caption: 'Abundance on a Leaf',
+    sub: 'The timeless Kerala Sadya',
+  },
+  {
+    src: 'https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=1400',
+    alt: 'Crispy Masala Dosa with chutneys',
+    caption: 'Morning Rituals',
+    sub: 'Crisp dosas, velvety chutneys',
+  },
+  {
+    src: 'https://photos.app.goo.gl/cgF6a89dNFtF1Gdm8  ',
+    alt: 'South Indian kitchen cooking',
+    caption: 'The Open Kitchen',
+    sub: 'Cooked with honesty, served with love',
+  },
+  {
+    src: 'https://photos.app.goo.gl/BF89rRUH216hnnp8A  ',
+    alt: 'Traditional South Indian filter coffee in steel tumbler',
+    caption: 'Filter Coffee Culture',
+    sub: 'Frothy, strong, and soul-warming',
+  },
+  {
+    src: 'https://photos.app.goo.gl/9gjSZiRTerjo9Qkh8   ',
+    alt: 'South Indian spices and fresh ingredients',
+    caption: 'Palakkad on a Plate',
+    sub: 'Where Kerala meets Tamil Nadu',
+  },
 ];
 
 const categoryMeta: Record<string, { label: string; time: string; icon: string }> = {
-  breakfast: { label: 'Breakfast', time: '7–10 AM',   icon: '🌅' },
-  lunch:     { label: 'Lunch',     time: '12–3 PM',   icon: '🍛' },
-  tiffin:    { label: 'Tiffin',    time: 'All Day',    icon: '🫓' },
-  specials:  { label: 'Specials',  time: 'Seasonal',   icon: '⭐' },
+  breakfast: { label: 'Breakfast', time: '7–10 AM',  icon: '🌅' },
+  lunch:     { label: 'Lunch',     time: '12–3 PM',  icon: '🍛' },
+  tiffin:    { label: 'Tiffin',    time: 'All Day',   icon: '🫓' },
+  specials:  { label: 'Specials',  time: 'Seasonal',  icon: '⭐' },
 };
 
 type MenuItem = { name: string; price: number; available: boolean };
 type MenuData = Record<string, MenuItem[]>;
 
 function HeroCarousel() {
-  const [current, setCurrent]             = useState(0);
-  const [isTransitioning, setTransition]  = useState(false);
+  const [current, setCurrent]            = useState(0);
+  const [isTransitioning, setTransition] = useState(false);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const goTo = useCallback((index: number) => {
@@ -92,7 +108,13 @@ function HeroCarousel() {
   );
 }
 
-export default function HomeClient({ menuData }: { menuData: MenuData }) {
+export default function HomeClient({
+  menuData,
+  galleryImages,
+}: {
+  menuData: MenuData;
+  galleryImages: { src: string; alt: string }[];
+}) {
   const [activeCategory, setActiveCategory] = useState('breakfast');
   const currentItems = menuData[activeCategory] ?? [];
 
@@ -100,7 +122,7 @@ export default function HomeClient({ menuData }: { menuData: MenuData }) {
     <div>
       <HeroCarousel />
 
-      {/* Today's Menu — LIVE FROM DB */}
+      {/* Today's Menu */}
       <section className="py-16 md:py-24 bg-brand-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-12">
