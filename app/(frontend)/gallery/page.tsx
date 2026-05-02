@@ -1,7 +1,7 @@
 import sql from '@/app/lib/db';
 import GalleryClient from './GalleryClient';
 
-export const revalidate = 60;
+export const revalidate = 0;
 
 type GalleryImage = {
   id: number;
