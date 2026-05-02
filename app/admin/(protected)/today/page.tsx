@@ -5,6 +5,8 @@ import { useEffect, useState, useCallback } from 'react';
 import { CheckCircle2, XCircle } from 'lucide-react';
 import type { MenuItem, Category } from '@/types';
 
+export const dynamic = 'force-dynamic';
+
 const CATEGORIES: Category[] = ['breakfast', 'lunch', 'tiffin', 'specials', 'desserts'];
 
 const CAT_LABELS: Record<Category, string> = {

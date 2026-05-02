@@ -5,6 +5,8 @@ import MenuItemForm from '@/components/admin/MenuItemForm';
 import Link from 'next/link';
 import { ChevronLeft } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 export default async function EditMenuItemPage({
   params,
 }: {

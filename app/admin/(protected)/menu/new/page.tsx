@@ -3,6 +3,8 @@ import MenuItemForm from '@/components/admin/MenuItemForm';
 import Link from 'next/link';
 import { ChevronLeft } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 export default function NewMenuItemPage() {
   return (
     <div className="p-8">

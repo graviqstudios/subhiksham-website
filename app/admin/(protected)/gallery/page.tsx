@@ -6,6 +6,8 @@ import { Trash2, Eye, EyeOff, Upload } from 'lucide-react';
 import Image from 'next/image';
 import type { GalleryImage, GalleryCategory } from '@/types';
 
+export const dynamic = 'force-dynamic';
+
 const CATEGORIES: { value: GalleryCategory; label: string }[] = [
   { value: 'food',     label: 'Food'     },
   { value: 'kitchen',  label: 'Kitchen'  },
