@@ -2,7 +2,7 @@
 import HomeClient from './HomeClient';
 import sql from '@/app/lib/db';
 
-export const revalidate = 60;
+export const revalidate = 0;
 
 export default async function HomePage() {
   const [menuItems, galleryRows] = await Promise.all([

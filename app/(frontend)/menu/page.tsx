@@ -2,7 +2,7 @@
 import sql from '@/app/lib/db';
 import MenuClient from './MenuClient';
 
-export const revalidate = 60;
+export const revalidate = 0;
 
 type MenuItem = {
   id: number;
