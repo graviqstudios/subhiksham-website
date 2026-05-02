@@ -1,5 +1,3 @@
-'use client';
-
 import { MapPin, Phone, Clock, Mail } from 'lucide-react';
 
 export const metadata = {
