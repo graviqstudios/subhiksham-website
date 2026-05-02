@@ -4,6 +4,12 @@ import MenuClient from './MenuClient';
 
 export const revalidate = 0;
 
+export const metadata = {
+  title: 'Menu',
+  description: 'Browse our full South Indian vegetarian menu — Breakfast, Lunch, Tiffin, Specials and Desserts. Fresh daily in Palakkad.',
+  alternates: { canonical: 'https://subhiksham.co.in/menu' },
+};
+
 type MenuItem = {
   id: number;
   name: string;

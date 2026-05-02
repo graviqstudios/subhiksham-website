@@ -2,6 +2,12 @@
 
 import { MapPin, Phone, Clock, Mail } from 'lucide-react';
 
+export const metadata = {
+  title: 'Contact',
+  description: 'Visit Subhiksham at 100 Ft Road, Palakkad. Open daily for breakfast and lunch. Call or WhatsApp us.',
+  alternates: { canonical: 'https://subhiksham.co.in/contact' },
+};
+
 const openingHours = [
   { slot: 'Breakfast', time: '7:00 AM - 10:00 AM' },
   { slot: 'Lunch',     time: '12:00 PM - 3:00 PM'  },
