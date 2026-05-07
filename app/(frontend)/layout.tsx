@@ -6,11 +6,11 @@ import FrontendShell from './FrontendShell';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Subhiksham – The Tiffin Club | Pure Veg South Indian, Palakkad',
+    default: 'Subhiksham – The Tiffin Club | Pure Veg South Indian Restaurant, Palakkad',
     template: '%s | Subhiksham Palakkad',
   },
   description: 'Pure vegetarian South Indian restaurant in Palakkad, Kerala. Authentic Kerala Sadya, Dosa, Idli, Tiffin and more. Open daily for breakfast and lunch.',
-  keywords: ['vegetarian restaurant palakkad', 'south indian food palakkad', 'kerala sadya palakkad', 'tiffin palakkad', 'pure veg palakkad', 'subhiksham'],
+  keywords: ['vegetarian restaurant palakkad', 'south indian food palakkad', 'kerala sadya palakkad', 'tiffin palakkad', 'pure veg palakkad', 'subhiksham', 'veg hotels near me', 'veg hotels in palakkad'],
   openGraph: {
     type: 'website',
     locale: 'en_IN',
